@@ -4,28 +4,30 @@ close all
 
 tic
 
-%% BCI Competition III - Dataset IVa - 100Hz
+% BCI Competition III - Dataset IVa - 100Hz
 
 %% Loading data from BCI Competition III dataset
 
-% % "#tr": number of training (labelled) trials   
-% % "#te": number of test (unlabelled) trials
+% "#tr": number of training (labelled) trials   
+% "#te": number of test (unlabelled) trials
 
-load('data_set_IVa_aa.mat');     % #tr=168   &   #te=112    1=80 , 2=88
-load('true_labels_aa.mat');
-Params.LabeldTrials='168';
-NoLabeldTrials=168;
-Params.UnLabeldTrials='112';
-Params.firstClassTrials='80';
-Params.secondClassTrials='88';
+% Uncomment the desired subject
 
-% load('data_set_IVa_al.mat');     % #tr=224   &   #te=56     1=112,2=112
-% load('true_labels_al.mat');
-% Params.LabeldTrials='224';
-% NoLabeldTrials=224;
-% Params.UnLabeldTrials='56';
-% Params.firstClassTrials='112';
-% Params.secondClassTrials='112';
+% load('data_set_IVa_aa.mat');     % #tr=168   &   #te=112    1=80 , 2=88
+% load('true_labels_aa.mat');
+% Params.LabeldTrials='168';
+% NoLabeldTrials=168;
+% Params.UnLabeldTrials='112';
+% Params.firstClassTrials='80';
+% Params.secondClassTrials='88';
+
+load('data_set_IVa_al.mat');     % #tr=224   &   #te=56     1=112,2=112
+load('true_labels_al.mat');
+Params.LabeldTrials='224';
+NoLabeldTrials=224;
+Params.UnLabeldTrials='56';
+Params.firstClassTrials='112';
+Params.secondClassTrials='112';
 
 % load('data_set_IVa_av.mat');     % #tr=84    &   #te=196
 % load('true_labels_av.mat');
@@ -56,10 +58,6 @@ Params.secondClassTrials='88';
 cnt = double(cnt)*0.1;        % Microvolt
 
 rng(1); % For reproducibility
-% If you specify 'auto' for 'kernel scale', then the software selects an appropriate 
-% scale factor using a heuristic procedure. This heuristic procedure uses subsampling,
-% so estimates can vary from one call to another. Therefore, to reproduce results, set
-% a random number seed using rng before training
 
 %% Parameters
 fs = nfo.fs;             % Sampling Rate
