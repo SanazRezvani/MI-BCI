@@ -191,7 +191,6 @@ end
 % % stem(r,f2,'marker','non','linewidth',1)
 % % title('Filtered EEG Coef.','fontsize',15)
 
-
 %%
        featuretestreal=[];
 %         datatestreal=[];
@@ -217,8 +216,6 @@ end
 %         type = 'bandpass';
         [b,a] = butter(order,[wn]/(fs/2),'bandpass');    
         cntf = filtfilt(b,a,cnt_f);            % Filtered EEG signal
-
-
 
 
 
@@ -257,7 +254,6 @@ datatrain2=data2(:,:,:);
 % mm=1;                               %No. of spatial filters for each class
 % mm=2; 
 % mm=3; 
-% mm=4; 
 Params.NumberOfCSPs1stapproach = 2*mm;
 
 [w] = myCSP(datatrain1,datatrain2,mm);
