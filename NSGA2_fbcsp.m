@@ -310,7 +310,7 @@ for i=1:size(datatrain1,3)         %#al    %No. of loops = No. of trials
 %     plot(rez2(1,:),rez2(2,:),'b.');
 %     title('EEG after CSP');
     
-%     
+    
 %      subplot(2,2,3)
 %     plot(featuretrain1(1,:),featuretrain1(2,:),'rs','linewidth',2,'markersize',8);
 %     hold on
@@ -322,7 +322,7 @@ for i=1:size(datatrain1,3)         %#al    %No. of loops = No. of trials
 % %     hold on
 % %     plot(featuretrain_2(1,:),featuretrain_2(2,:),'bo','linewidth',2,'markersize',8);
 % %     title('Logarithm of Variance of each EEG Channel');
-% 
+
 end
 % 
 % 
