@@ -324,8 +324,7 @@ for i=1:size(datatrain1,3)         %#al    %No. of loops = No. of trials
 % %     title('Logarithm of Variance of each EEG Channel');
 
 end
-% 
-% 
+
 
 %% Applying CSP on Unlabeld Test Trials
 
