@@ -413,7 +413,7 @@ ttt=double([labeltrain==1; labeltrain==2]);
     %%
 % datatest=[featuretest1,featuretest2];
 % labeltest=[ones(1,size(featuretest1,2)),2*ones(1,size(featuretest2,2))];
-% 
+
 %%
 truelabels=true_y;
 datatestreal=[featuretestreal];
