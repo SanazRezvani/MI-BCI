@@ -218,7 +218,6 @@ end
         cntf = filtfilt(b,a,cnt_f);            % Filtered EEG signal
 
 
-
 %% Extracting Trials from EEG & Separating them by Labels
 Params.TrialLength='3.5 sec';
 trlen = 3.5*fs;            % Trial Length (No. of samples in a single trial)
