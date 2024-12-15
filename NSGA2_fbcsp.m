@@ -417,7 +417,6 @@ truelabels=true_y;
 datatestreal=[featuretestreal];
 labeltestreal=[truelabels(unlbtst:280)];
 
-
 %%
 
 CostFunction=@(s) FeatureSelectionCost(s,data);     % Cost Function
