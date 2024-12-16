@@ -389,7 +389,6 @@ end
 %         
 %         featuretestreal=featuretestreal(sel_ind,:);
 
-
 %%
 global xxx ttt datatrain labeltrain datatestreal labeltestreal NoLabeldTrials trlab Compactmdl1
     
