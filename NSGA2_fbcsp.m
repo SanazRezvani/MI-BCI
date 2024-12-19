@@ -386,7 +386,7 @@ end
 %         
 %         featuretest1=featuretest1(sel_ind,:);
 %         featuretest2=featuretest2(sel_ind,:);
-%         
+         
 %         featuretestreal=featuretestreal(sel_ind,:);
 
 %%
