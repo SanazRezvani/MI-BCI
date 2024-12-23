@@ -661,8 +661,6 @@ global mdl1
         confusionchart(C)
      
 
-
-
 %         output1=predict(mdl1,XTest)  
 %             output1real=predict(mdl1.Trained{10},datatestreal')    %.Trained{10}
 % %         output1real=predict(Compactmdl1,datatestreal')   
@@ -690,7 +688,7 @@ global mdl1
 % % Acc(bn,1)=accuracy1;
 % % Accreal(bn,1)=accuracy1;
 % 
-% 
+
 % %%%%%%   Nonlinear SVM   %%%%%%%
 % mdl2=fitcsvm(datatrain',labeltrain,'Standardize',true,'KernelFunction','rbf');
 % % ,...
