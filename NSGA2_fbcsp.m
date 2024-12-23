@@ -703,7 +703,7 @@ global mdl1
 % Acckreal(iter,2)= accuracy2real;
 % 
 % 
-% %%%%%%   KNN   %%%%%%%
+% %%%%%%   KNN   %%%%%%
 % mdl3=fitcknn(datatrain',labeltrain,'NumNeighbors',5);
 % output3=predict(mdl3,datatest');
 % output3real=predict(mdl3,datatestreal');
