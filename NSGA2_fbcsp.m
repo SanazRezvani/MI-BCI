@@ -629,7 +629,6 @@ global mdl1
 %          EE=classLoss*100;
 
 
-
 %% Final Evaluation of the Classifier on the Train Data
 
           X = datatrain';
