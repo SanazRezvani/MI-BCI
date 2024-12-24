@@ -314,7 +314,7 @@ for i=1:size(datatrain1,3)         %#al    %No. of loops = No. of trials
 %     plot(featuretrain2(1,:),featuretrain2(2,:),'bo','linewidth',2,'markersize',8);
 %     title('Variance of each EEG Channel');
 % 
-% %      subplot(2,2,4)
+%      subplot(2,2,4)
 % %     plot(featuretrain_1(1,:),featuretrain_1(2,:),'rs','linewidth',2,'markersize',8);
 % %     hold on
 % %     plot(featuretrain_2(1,:),featuretrain_2(2,:),'bo','linewidth',2,'markersize',8);
