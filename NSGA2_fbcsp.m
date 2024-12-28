@@ -722,7 +722,6 @@ global mdl1
 
     
 %     end
-       
     
 %%
 % Acc=mean(Acck);
