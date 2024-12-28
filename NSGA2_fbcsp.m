@@ -581,7 +581,6 @@ for it=1:MaxIt
     
     F1san{it,:}={F1.Cost};
 
-  
     
 %     Z1=[F1.Cost];
 %     NF1=Z1(1,:);          % First row of Z1
