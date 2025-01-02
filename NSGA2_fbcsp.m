@@ -618,7 +618,7 @@ global mdl1
 % classLoss = kfoldLoss(CVmdl1); 
 
 
-        % %%%%%%% Classification SVM  %%%%%%%          
+        % %%%%%%% Classification SVM  %%%%%        
 %         mdl1=fitcsvm(datatrain',labeltrain,'Crossval','on');    %, 'Crossval','on','ClassNames',{'1','2'},'Standardize',true
 %         classLoss = kfoldLoss(mdl1);    %By default, kfoldLoss returns the classification error
 %                                         % out-of-sample misclassification rate or generalization rate
