@@ -601,7 +601,7 @@ global mdl1
 
 
 %% Train classifier using train data and label
-%%%%%%   SVM   %%%%%%
+%%%%%%   SVM   %%%%%
 % mdl1=fitcsvm(datatrain',labeltrain,'KFold',10);
 % % CVmdl1=crossval(mdl1);
 % % output1=predict(mdl1,datatest');
