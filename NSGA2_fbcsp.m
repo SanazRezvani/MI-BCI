@@ -21,6 +21,7 @@ tic
 % Params.firstClassTrials='80';
 % Params.secondClassTrials='88';
 
+
 load('data_set_IVa_al.mat');     % #tr=224   &   #te=56     1=112,2=112
 load('true_labels_al.mat');
 Params.LabeldTrials='224';
