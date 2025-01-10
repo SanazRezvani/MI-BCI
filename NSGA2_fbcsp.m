@@ -690,7 +690,7 @@ global mdl1
 % % Accreal(bn,1)=accuracy1;
 % 
 
-% %%%%%%   Nonlinear SVM   %%%%%%%
+% %%%%%%   Nonlinear SVM   %%%%%%
 % mdl2=fitcsvm(datatrain',labeltrain,'Standardize',true,'KernelFunction','rbf');
 % % ,...
 % %      'KernelScale','auto');
