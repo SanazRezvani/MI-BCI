@@ -510,7 +510,6 @@ for it=1:MaxIt
         i2=randi([1 nPop]);
         p2=pop(i2);
 
-        
         % Apply Crossover
         [popc(k,1).Position ,popc(k,2).Position]=Crossover(p1.Position,p2.Position);
         
