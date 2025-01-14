@@ -246,6 +246,7 @@ datatrain1=data1(:,:,:);    % datatrain1=data1
 datatrain2=data2(:,:,:);
 
 
+
 %% Applying Spatial filter of CSP on each single trial and putting them in a loop
 % figure
 % prompt = " m first and last columns of  ...?";
