@@ -499,6 +499,7 @@ for it=1:MaxIt
     
     disp(['Starting Iteration ' num2str(it) '...']);
     
+
     
     % Crossover
     popc=repmat(empty_individual,nc/2,2);
