@@ -152,7 +152,7 @@ end
 %         fl = 8;     % beginning of mu
 %         fh = 13;    % end of mu                  
 % end
-% 
+
 % if Usemubeta
 %         fl = 8;     % beginning of mu
 %         fh = 30;    % end of beta                  
