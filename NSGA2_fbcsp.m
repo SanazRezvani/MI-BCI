@@ -296,7 +296,7 @@ for i=1:size(datatrain1,3)         %#al    %No. of loops = No. of trials
 %     featuretrain1(:,i)=var(y1');
 %     featuretrain2(:,i)=var(y2');
       
-%     
+    
 %     % Second approach to feature extraction for variance
 % %     featuretrain_1(:,i)=log10(var(y1')/sum(var(y1')));
 % %     featuretrain_2(:,i)=log10(var(y2')/sum(var(y2')));
