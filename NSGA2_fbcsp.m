@@ -188,7 +188,7 @@ end
 % % subplot(2,1,1)
 % % stem(r,f1,'marker','non','linewidth',1)
 % % title('Original EEG Coef.','fontsize',15)
-% % 
+% 
 % % f2 = fft(cntf);
 % % f2 = abs(f2);
 % % f2 = f2(1:round(m/2));
