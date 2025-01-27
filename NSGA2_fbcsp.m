@@ -8,7 +8,6 @@ tic
 
 %% Loading data from BCI Competition III dataset
 
-
 % "#tr": number of training (labelled) trials   
 % "#te": number of test (unlabelled) trials
 
