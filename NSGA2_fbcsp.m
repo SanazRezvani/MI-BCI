@@ -136,6 +136,7 @@ if Usegamma
         bands=[8:1:38;10:1:40];
 end
 
+
 if Usetwo
 %         bands=[8:2:28;10:2:30]; 
         bands=[8:1:28;10:1:30]; 
