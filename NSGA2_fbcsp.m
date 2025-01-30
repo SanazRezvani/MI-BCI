@@ -396,6 +396,7 @@ end
 
 %%
 global xxx ttt datatrain labeltrain datatestreal labeltestreal NoLabeldTrials trlab Compactmdl1
+
     
 %%
 datatrain=[featuretrain1,featuretrain2];
