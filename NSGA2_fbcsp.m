@@ -290,6 +290,7 @@ for i=1:size(datatrain1,3)         %#al    %No. of loops = No. of trials
 %         featuretrain1(:,i)=var(rez1');
 %         featuretrain2(:,i)=var(rez2');
 
+
         
         temptrain1(:,i)=var(y1');
         temptrain2(:,i)=var(y2');
