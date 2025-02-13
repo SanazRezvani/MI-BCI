@@ -254,6 +254,7 @@ datatrain2=data2(:,:,:);
 % mm = input(prompt)
 
 
+
 % mm=1;                               %No. of spatial filters for each class
 % mm=2; 
 % mm=3; 
