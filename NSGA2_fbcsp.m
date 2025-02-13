@@ -346,6 +346,7 @@ for i=1:size(datatestreal,3)          %No. of loops = No. of trials
 %     rezreal=ww'*xreal(52,:);
 
 
+
     yreal=w'*xreal;
     
     %First approach to feature extraction for variance
