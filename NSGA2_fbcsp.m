@@ -539,6 +539,7 @@ for it=1:MaxIt
     end
     popc=popc(:);
     
+
     
     % Mutation
     popm=repmat(empty_individual,nm,1);
