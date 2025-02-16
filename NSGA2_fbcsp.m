@@ -112,7 +112,7 @@ points = [x';y'];
 
 %% Bandpass Filtering to get mu , beta and gamma band information
 
-%%%%%% FBCSP %%%%%%%%%%%%
+%%%%%% FBCSP %%%%%%%%%%%
 
 FrequencyIntervals=questdlg('which frequency band do you want to use?','FrequencyBand',...
     'mu & beta 2OL1','mu & beta 4OL2','mu & beta & gamma','mu & beta & gamma');
