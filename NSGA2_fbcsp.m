@@ -311,7 +311,7 @@ for i=1:size(datatrain1,3)         %#al    %No. of loops = No. of trials
 %     plot(y2(1,:),y2(2,:),'b.');
 %     title('EEG after CSP');
     
-%         subplot(2,2,2)
+%     subplot(2,2,2)
 %     plot(rez1(1,:),rez1(2,:),'r.'); 
 %     hold on
 %     plot(rez2(1,:),rez2(2,:),'b.');
