@@ -69,52 +69,51 @@ Params.SamplingFrequency=nfo.fs;
 %% Channel Locations
 x = nfo.xpos;
 y = nfo.ypos;
-% channellabels = nfo.clab;     %cell matrix
-% figure
-% plot(x,y,'ro','markersize',10,'linewidth',2,'markerfacecolor','k')       %Capital initials for older versions
-% grid on
-% text(x+0.02,y,channellabels,'fontsize',15,'color','b')
-% title('Channel Locations')
+channellabels = nfo.clab;     %cell matrix
+figure
+plot(x,y,'ro','markersize',10,'linewidth',2,'markerfacecolor','k')       
+grid on
+text(x+0.02,y,channellabels,'fontsize',15,'color','b')
+title('Channel Locations')
 
 
 %% Preprocessing with Spatial Filters 
-type=questdlg('what type of spatial filter do you want to use?','Spatial Filter',...
+type=questdlg('Select the type of spatial filter','Spatial Filter',...
     'CAR','Low Laplacian','High Laplacian','CAR');
 
 ch = (1:118); 
 points = [x';y'];
 
-% figure
 [cnt_f] = myspatialfilter(cnt,type,points);    % EEG signal after Preprocessing with spatial filters
-% figure
-% plot(cnt_f(:,1),'r')     
-% title('EEG Signal of a Single Channel after Pre-Processing with Spatial Filters')
+figure
+plot(cnt_f(:,1),'r')     
+title('EEG Signal of a Single Channel after Pre-Processing with Spatial Filters')
        
-% % 52=C3  ;  56=C4;
-% figure
-% subplot(2,1,1)
-% plot(cnt(:,52),'r','linewidth',0.5)
-% title('EEG signal acquired from C3 channel','fontsize',15)
-% subplot(2,1,2)
-% % plot(cntf(:,52),'b','linewidth',0.5)
-% plot(cnt_f(:,52),'b','linewidth',0.5)
-% title('Filtered EEG signal of C3 channel','fontsize',15)
-% 
-% figure
-% subplot(2,1,1)
-% plot(cnt(:,56),'r','linewidth',0.5)
-% title('EEG signal acquired from C4 channel','fontsize',15)
-% subplot(2,1,2)
-% % plot(cntf(:,56),'b','linewidth',0.5)
-% plot(cnt_f(:,56),'b','linewidth',0.5)
-% title('Filtered EEG signal of C4 channel','fontsize',15)
+% 52=C3  ;  56=C4;
+figure
+subplot(2,1,1)
+plot(cnt(:,52),'r','linewidth',0.5)
+title('EEG signal acquired from C3 channel','fontsize',15)
+subplot(2,1,2)
+% plot(cntf(:,52),'b','linewidth',0.5)
+plot(cnt_f(:,52),'b','linewidth',0.5)
+title('Filtered EEG signal of C3 channel','fontsize',15)
+
+figure
+subplot(2,1,1)
+plot(cnt(:,56),'r','linewidth',0.5)
+title('EEG signal acquired from C4 channel','fontsize',15)
+subplot(2,1,2)
+plot(cntf(:,56),'b','linewidth',0.5)
+plot(cnt_f(:,56),'b','linewidth',0.5)
+title('Filtered EEG signal of C4 channel','fontsize',15)
 
 
-%% Bandpass Filtering to get mu , beta and gamma band information
+%% Bandpass Filtering to get mu, beta and gamma band information
 
 %%%%%% FBCSP %%%%%%%%%
 
-FrequencyIntervals=questdlg('which frequency band do you want to use?','FrequencyBand',...
+FrequencyIntervals=questdlg('Select the frequency band','FrequencyBand',...
     'mu & beta 2OL1','mu & beta 4OL2','mu & beta & gamma','mu & beta & gamma');
 
 % FrequencyBand=questdlg('which frequency band do you want to use?','Frequency Band',...
@@ -770,4 +769,5 @@ global mdl1
 % Results.Accreal=Accreal;
 
 toc
+
 
