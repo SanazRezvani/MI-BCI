@@ -28,17 +28,4 @@ space and selecting salient features were accomplished using NSGA-II in a wrappe
 - `NSGA2_fbcsp.m` - MATLAB file with the data processing for the final model
 
 
-- `Data_Processing_Final.ipynb` - Python notebook with the data processing for our final model
-- `Model_Training_Final.ipynb` - Python notebook with the ML/model training for our final model
-- `Hardware_Procedure.pdf` - procedure for hardware setup/data collection
-- `Conference_Poster.pdf` - poster that was submitted to the California Neurotechnology Conference 2023
-- `Slideshow_Presentation.pdf` - PDF of the final presentation slideshow
-- `Project_Methods.png` - image showing history of recording sessions 
-- `git_push_script.bat` - batch script to quickly push all changes to the repository with a commit messagex
-- `archive/` - old model training and data processing notebooks
-- `data/` - raw .csv files from the data collection, as well as formatted training example/label .npy files
-- `demo/` - videos of demo recording
-- `live_app/` - code for the live transcription app
-- `models/` - saved Keras model files, not just weights 
-- `pictures/` - pictures for the README.md and general info
-- `resources/` - helpful documents that give context for adjacent research/ideas
+
